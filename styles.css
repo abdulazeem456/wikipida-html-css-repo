@@ -1,0 +1,140 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #f0f0f0;
+    padding: 15px 0;
+}
+
+.logo {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+form {
+    display: inline-block;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+ul.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ul.menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Conteúdo principal */
+main {
+    display: flex;
+}
+
+aside {
+    width: 250px;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-right: 1px solid #ccc;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+ul.categorias,
+ul.ferramentas {
+    list-style: none;
+    padding: 0;
+}
+
+ul.categorias li,
+ul.ferramentas li {
+    margin-bottom: 5px;
+}
+
+ul.categorias a,
+ul.ferramentas a {
+    text-decoration: none;
+    color: #000;
+}
+
+article {
+    flex: 1;
+    padding: 15px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Rodapé */
+footer {
+    background-color: #f0f0f0;
+    padding: 15px 0;
+    text-align: center;
+}
